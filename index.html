@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Подключаем jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <!-- Custom styles  -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Подключаем слайдер Slick -->
+    <script src="js/slick.js"></script>
+    <!-- Подключаем файл скриптов -->
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img class="logo" src="img/top_logo.png" alt=""></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href=""><span>Поиск</span> <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </a></li>
+                    <li><a href="">
+                            <div class="nav-right">Вход</div>
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="slider">
+        <div class="slider__item">
+            <div class="slide">
+                <img class="slider__img" src="img/slide1.png" alt="">
+            </div>
+            <div class="slide_content">
+                <h6>Идеальное решение</h6>
+                <h2>Антивандальные автоматические сушилки Crabb </h2>
+                <h5>Высокоскоростные, эргономичные, с двойным HEPA фильтром</h5>
+                <div class="buttons">
+                    <button class="slide_button">Смотреть каталог</button>
+                    <button class="slide_button">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider__item">
+            <div class="slide">
+                <img class="slider__img" src="img/slide2.png" alt="">
+            </div>
+            <div class="slide_content">
+                <h6>Идеальное решение</h6>
+                <h2>Антивандальные автоматические сушилки Crabb </h2>
+                <h5>Высокоскоростные, эргономичные, с двойным HEPA фильтром</h5>
+                <div class="buttons">
+                    <button class="slide_button">Смотреть каталог</button>
+                    <button class="slide_button">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider__item">
+            <div class="slide">
+                <img class="slider__img" src="img/slide1.png" alt="">
+            </div>
+            <div class="slide_content">
+                <h6>Идеальное решение</h6>
+                <h2>Антивандальные автоматические сушилки Crabb </h2>
+                <h5>Высокоскоростные, эргономичные, с двойным HEPA фильтром</h5>
+                <div class="buttons">
+                    <button class="slide_button">Смотреть каталог</button>
+                    <button class="slide_button">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="catalog">
+        <div class="menu">
+            <h6>Основные категории</h6>
+            <h2>Каталог продукции </h2>
+            <h5>Производство и поставка оборудования</h5>
+            <div class="cat_list">
+                <a href="#">-> Сушилки для рук</a>
+                <a href="#">-> Дозаторы</a>
+                <a href="#">-> Фены для волос</a>
+                <a href="#">-> Пеленальные столики</a>
+                <a href="#">-> Сенсорные смесители</a>
+            </div>
+            <div class="dots"></div>
+        </div>
+        <div class="list">
+            <div class="list_item"> <img src="img/Crabb05.png" alt=""></div>
+            <div class="list_item"> <img src="img/Crabb07.png" alt=""></div>
+            <div class="list_item"> <img src="img/Crabb04N.png" alt=""></div>
+            <div class="list_item"> <img src="img/Crabb05.png" alt=""></div>
+            <div class="list_item"> <img src="img/Crabb07.png" alt=""></div>
+            <div class="list_item"> <img src="img/Crabb04N.png" alt=""></div>
+            <div class="list_item"> <img src="img/Crabb05.png" alt=""></div>
+            <div class="list_item"> <img src="img/Crabb07.png" alt=""></div>
+            <div class="list_item"> <img src="img/Crabb04N.png" alt=""></div>
+        </div>
+    </div>
+</body>
+
+</html>
