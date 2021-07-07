@@ -282,12 +282,39 @@ body {
 }
 
 .catalog .list .list_item {
-    padding: 0 4%;
-    width: 220px;
-    text-align: center;
+    padding: 5px;
+    padding: 4% 2%;
+    margin-right: 20px;
+    height: 410px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+
 }
 
+.catalog .list .list_item .image {
+    background-color: #171719;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    padding: 10px;
 
+}
+.catalog .list .list_item .image>img {
+   max-height: 280px ;
+}
+.catalog .list .list_item .description {}
+
+.catalog .list .list_item .description .header {
+    font-size: 17px;
+}
+
+.catalog .list .list_item .description .characteristic {
+    font-size: 14px;
+    color: #b7b9be;
+}
 
 .cat_list a {
     padding: 5px;
@@ -312,6 +339,7 @@ body {
 /* Лента слайдов */
 .slick-track {
     display: flex;
+    column-gap: 20px;
 }
 
 /* Слайд */
